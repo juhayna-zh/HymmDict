@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'hymmnos';
+    src: url('Hymmnos.woff2') format('woff2'),
+        url('Hymmnos.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

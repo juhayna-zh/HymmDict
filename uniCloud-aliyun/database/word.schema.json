@@ -1,0 +1,43 @@
+{
+	"bsonType": "object",
+	"required": ["hym"],
+	"permission": {
+		"read": true,
+		"create": false,
+		"update": false,
+		"delete": false
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"hym": {
+			"description": "Hymmnos语单词",
+			"bsonType": "string"
+		},
+		"chi": {
+			"description": "中文释义",
+			"bsonType": "string"
+		},
+		"eng": {
+			"description": "英文释义",
+			"bsonType": "string"
+		},
+		"jap": {
+			"description": "日语释义",
+			"bsonType": "string"
+		},
+		"note": {
+			"description": "音律/方言(英文)",
+			"bsonType": "string"
+		},
+		"spoken": {
+			"description": "发音(罗马字)",
+			"bsonType": "string"
+		},
+		"pos": {
+			"description": "词性(Part of Speech)",
+			"bsonType": "string"
+		}
+	}
+}
